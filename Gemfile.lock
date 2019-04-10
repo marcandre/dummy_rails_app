@@ -127,6 +127,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     parser (2.5.3.0)
       ast (~> 2.4.0)
+    pg (1.1.4)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -235,6 +236,7 @@ DEPENDENCIES
   deep-cover
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  pg
   puma (~> 3.11)
   rails (~> 5.2.3)
   sass-rails (~> 5.0)
