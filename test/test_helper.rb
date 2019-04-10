@@ -1,4 +1,5 @@
 ENV['RAILS_ENV'] ||= 'test'
+require 'deep-cover/builtin_takeover'
 require_relative '../config/environment'
 require 'rails/test_help'
 
